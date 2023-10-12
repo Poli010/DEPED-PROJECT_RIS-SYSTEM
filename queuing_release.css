@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bookman Old Style';
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header{
+    height: 150px;
+    background-color: #162fa0;  
+    position: sticky;
+    width: 100%;
+    z-index: 998;
+    margin-bottom: -5%;
+}
+
+
+header img{
+    margin-top: 10px;
+    width: 120px;
+}
+
+h1{
+    font-size: 130%;
+    color: white;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 118px;
+    z-index: 998;
+}
+
+h2{
+    font-size: 120%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    z-index: 998;
+}
+
+h3{
+    font-size: 95%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    z-index: 998;
+}
+
+.headerTitles {
+    margin-top: 5%;
+    margin-left: 1%;
+    z-index: 998;
+}
+
+#forRIS1{
+    margin: auto;
+    max-width: 50%;
+    border: solid;
+    z-index: 999;
+    padding-top: -5%;
+}
+
+.risFORM{
+    overflow-x: hidden;
+    margin-bottom: 1.5%;
+}
+
+.stock_number {
+    width: 85px;
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+.purposeInput {
+    width: 1000px;
+    height: 25px;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+.purposeTitle {
+    text-align: left;
+    margin-left: 5px;
+}
+
+
+.stock_unit {
+    width: 5.5%;
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+.quantityInput {
+    text-align: center;
+    font-weight: bold;
+    width: 7%;
+}
+
+.quantityInputUser {
+    width: 95px;
+    text-align: center;
+}
+
+.yesInputCheck {
+    width: 2%;
+}
+
+.noInputCheck {
+    width: 2%;
+}
+
+#endUserHeaderLogo {
+    height: 110px;
+}
+
+.backbtn{
+    float: right;
+    margin-top: 4.15%;
+    margin-right: 2%;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.backbtn:hover{
+    background: grey;
+}
+
+nav ul{
+    float: right;
+}
+
+.entityDeped {
+    margin-bottom: -2%;
+    margin-right: 80%;
+}
+
+.fundCluster {
+    margin-left: 77%;
+}
+
+.cityDivision {
+    margin-right: 89.7%;
+}
+
+.locationDivision {
+    margin-top: -20px;
+    margin-left: -525px;
+}
+
+.userOffice {
+    margin-top: .5%;
+    margin-bottom: -2.5%;
+    margin-left: -91.7%;
+}
+
+.userOfficePHP {
+    margin-top: -20px;
+    margin-left: 440px;
+}
+
+.centerCode {
+    margin-top: -18px;
+    margin-right: -61.7%;
+}
+
+.centerCodePHP {
+    margin-top: -2%;
+    margin-left: 87%;
+}
+
+.risNo {
+    margin-top: .5%;
+    margin-left: 68%;
+}
+
+.risNoDate{
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+}
+
+#signature {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.firstcolumn_Approval {
+    text-align: left;
+    font-size: 11px;
+    width: 10px;
+}
+
+.requestedBy {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.approvalDiv {
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.approvedByName {
+    text-align: center;
+    font-size: 12px;
+}
+
+.issuedByName {
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+}
+
+#designationID {
+    text-align: left;
+    font-size: 12px;
+}
+
+#approverPosition {
+    text-align: center;
+    font-size: 10px;
+}
+
+#issuerPosition {
+    text-align: center;
+    font-size: 10px;
+}
+
+#dateToday {
+    text-align: left;
+    font-size: 12px;
+}
+
+.dateRequested {
+    text-align: center;
+    font-size: 12px;
+}
+
+.formDate {
+    text-align: center;
+    font-size: 12px;
+}
+
+.releaseDate{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.item_description {
+    font-family: "Bookman Old Style";
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    width: 370px;
+}
+
+.itemDescription_title {
+    font-family: "Bookman Old Style";
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 10000px;
+}
+
+.accountName{
+    text-align: center;
+    font-size: 12px;
+}
+
+.accountNameInput {
+    width: 700px;
+}
+
+.issuedRemarks {
+    width: 400px;
+}
+
+.userPosition {
+    text-align: center;
+    font-size: 12px;
+}
+
+.endUserButtons {
+    margin-left: 30px;
+    margin-top: -250px;
+}
+
+table{
+    width: 60%;
+}
+.table_head{
+    border: 5px solid black;
+}
+
+.stock-number{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Bookman Old Style';
+}
+
+.stock-unit{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Bookman Old Style';
+}
+.item-description{
+    width: 200px;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Bookman Old Style';
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+
+.quantity-Input{
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Bookman Old Style';
+}
+
+.btnRelease{
+    display: none;
+}
+
+.btnCancel{
+    width: 8.5%;
+    height: 50px;
+    border-radius: 13px;
+    font-family: "Bookman Old Style";
+    font-size: 100%;
+    font-weight: bold;
+    background-color: red; 
+    color: #fff; 
+    border: 2px solid red;
+    transition: background-color .3s;
+    cursor: pointer; 
+}
+
+.btnCancel:hover{
+    background-color: grey;
+}
+
+.generatePDF {
+    width: 8.5%;
+    height: 50px;
+    border-radius: 13px;
+    font-family: "Bookman Old Style";
+    font-size: 100%;
+    font-weight: bold;
+    background-color: #162fa0; 
+    color: #fff; 
+    border: 2px solid #162fa0;
+    transition: background-color .3s;
+    cursor: pointer; 
+}
+
+.generatePDF:hover {
+    background-color: grey; 
+}
+
+.buttonContainer {
+    margin-top: -4%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.forRelease {
+    margin-top: -5%;
+    text-align: center;
+}
+
+.forCancel {
+    margin-top: -5%;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 768px) {
+    .backbtn{
+        float: right;
+        padding: 10px 10px 10px 10px;
+        font-size: 15px;
+        margin-top: 13%;
+    }
+    
+}
+
+@media screen and (min-width: 848px) {
+    .backbtn{
+        float: right;
+        padding: 11px 11px 11px 11px;
+        font-size: 15px;
+        margin-top: 12%;
+    }
+    
+}
+
+@media screen and (min-width: 936px) {
+    .backbtn{
+        float: right;
+        padding: 12px 12px 12px 12px;
+        font-size: 15px;
+        margin-top: 10%;
+    }
+    
+}
+
+@media screen and (min-width: 1050px) {
+    .backbtn{
+        float: right;
+        padding: 13px 13px 13px 13px;
+        font-size: 15px;
+        margin-top: 9%;
+    }
+    
+}
+
+@media screen and (min-width: 1168px) {
+    .backbtn{
+        float: right;
+        padding: 13px 13px 13px 13px;
+        font-size: 15px;
+        margin-top: 8%;
+    }
+    
+}
+
+@media screen and (min-width: 1257px) {
+    .backbtn{
+        float: right;
+        padding: 15px 15px 15px 15px;
+        font-size: 15px;
+        margin-top: 7%;
+    }
+    
+}
+
+@media screen and (min-width: 1350px) {
+    .backbtn{
+        float: right;
+        padding: 15px 15px 15px 15px;
+        font-size: 15px;
+        margin-top: 6.5%;
+    }
+}
+
+@media screen and (min-width: 1411px) {
+    .backbtn{
+        float: right;
+        padding: 15px 15px 15px 15px;
+        font-size: 15px;
+        margin-top: 6.5%;
+    }
+    
+}
+
+@media screen and (min-width: 1615px) {
+    .backbtn{
+        float: right;
+        padding: 16px 16px 16px 16px;
+        font-size: 16px;
+        margin-top: 5.5%;
+    }
+    
+}
+
+@media screen and (min-width: 1771px) {
+    .backbtn{
+        float: right;
+        padding: 17px 17px 17px 17px;
+        font-size: 17px;
+        margin-top: 4.5%;
+    }
+}
+
+@media screen and (min-width: 1880px) {
+    .backbtn{
+        float: right;
+        padding: 17px 17px 17px 17px;
+        font-size: 17px;
+        margin-top: 4.5%;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+    .backbtn{
+        float: right;
+        padding: 17px 17px 17px 17px;
+        font-size: 17px;
+        margin-top: 4.5%;
+    }
+    
+}

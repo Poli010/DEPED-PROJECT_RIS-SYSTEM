@@ -1,0 +1,1910 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'bookman old style';
+}
+
+header{
+    height: 190px;
+    background-color: #162fa0;  
+    
+}
+
+header img{
+    margin-top: 10px;
+    width: 120px;
+}
+
+.headerTitles{
+    margin-top: -2.5%;
+    margin-left: .5%;
+}
+
+.headerTitles h1{
+    font-size: 130%;
+    color: white;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 118px;
+    
+}
+
+.headerTitles h2{
+    font-size: 120%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    
+}
+
+.headerTitles h3{
+    font-size: 95%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    
+}
+
+header h1{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin: -120px 0px 0px 140px;
+}
+
+h2{
+    font-size: 40px;
+    margin-left: 590px;
+}
+
+.convertbtn{
+    float: right;
+    text-decoration: none;
+    margin: 135px -520px 0px 0px;
+    height: 25%;
+    width: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    font-size: 15px;
+}
+
+.convertbtn:hover{
+    background: grey;
+}
+
+
+/* Popup Delete Animation*/
+.popup3{
+    height: 250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 500px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+.open-popup3{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%)scale(1);
+}
+/* Popup Delete Animation*/
+
+/* Delete Drescription*/
+.popup3 h2{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 0px;
+    height: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #162fa0;
+    color: white;
+    cursor: pointer;
+}
+.buttons3{
+    display: flex;
+    justify-content: space-between;
+}
+.Delete{
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 210px;
+    background: white;
+
+}
+.Delete:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+.Close3{
+    font-size: 20px;
+    height: 30px;
+    width: 70px;
+    margin-top: 70px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+
+
+
+/* Delete Dropdownlist*/
+.dropdowndelete{
+    width: 350px;
+    height: 50px;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 16%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dropdowndelete *{
+    box-sizing: border-box;
+}
+
+.deletebtn{
+    float: right;
+    text-decoration: none;
+    margin: 135px -360px 0px 0px;
+    height: 25%;
+    width: 10%;
+    border-radius: 15px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    font-size: 15px;
+}
+
+.deletebtn:hover{
+    background: grey;
+}
+
+/* Delete Dropdownlist*/
+
+/* Delete Drescription*/
+
+.sorting{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px 0px 80%;
+}
+
+.sorting select{
+    border: 2px solid black;
+    font-size: 15px;
+}
+/* MENU BAR*/
+
+.container{
+    height: 100%;
+    width: 270px;
+    position: absolute;
+    margin-top: -120px;
+    background: #162fa0;
+    z-index: 1;
+    transition: transform 0.5s;
+    transform: translateX(-270px);
+}
+
+.container .head{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background: #7c9885;
+}
+
+ol{
+    width: 100%;
+    list-style: none;
+}
+
+ol li{
+    display: block;
+    width: 100%;
+}
+
+ol li a{
+    color: white;
+    padding: 20px 20px 0px 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+ol li a i{
+    margin-left: -10px;
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+ol li:hover a{
+    background: #162fa0;
+    color: grey;
+    letter-spacing: 1.5px;
+}
+
+
+
+.menu_checkbox{
+    visibility: hidden;
+    display: none;
+}
+
+span{
+    position: absolute;
+    right: -40px;
+    top: 10px;
+    font-size: 30px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: #162fa0;
+}
+
+span #times{
+    position: absolute;
+    margin: 0px 0px 0px -23px;
+
+}
+
+
+.menu_checkbox:checked ~ .container{
+    transform: translateX(0);
+}
+.menu_checkbox:checked ~ .container #bars{
+    display: none;
+}
+
+/* MENU BAR END */
+
+
+/* Search Bar*/
+
+.searchbar{
+    float: right;
+    margin: 140px 320px 0px 0px;  
+}
+
+
+
+
+.searchbar input{
+    background: white;
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    outline: none; 
+}
+
+/* Search Bar*/
+
+
+
+
+/* TABLE */
+table{
+    font-size: 20px;
+    margin-left: 180px;
+    width: 87%;
+    border: 2px solid black;
+    border-collapse: collapse; 
+}
+
+table tr:nth-child(even) {
+    background-color: lightgray; 
+}
+
+ table tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+.table-number{
+    width: 60px;
+}
+
+.table-stock{
+    width: 150px;
+}
+
+
+.table-quantity{
+    width: 150px;
+}
+
+
+table tr {
+    text-align: center;
+    border: 2px solid black;
+    height: 40px;
+}
+
+table tr th{
+    background: #162fa0;
+    color: white;
+    font-style: italic;
+    border: 2px solid black;
+    top: 0px;
+    position: sticky;
+}
+
+table tr td{
+    font-size: 18px;
+    border: 2px solid black;
+    line-height: 20px;
+    
+}
+.align-item-description{
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+}
+
+.scroll{
+   
+    width: 1400px;
+    height: 350px;
+    margin-top: 10px;
+    overflow-y: scroll;
+}
+
+
+/* TABLE */
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    .container{
+        height: 100%;
+        width: 210px;
+        position: absolute;
+        margin-top: -18%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-210px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 25% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -44% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -33% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 35px;
+        margin-left: 30%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0px 0px 0px 76%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (min-width: 848px) {
+    .container{
+        height: 100%;
+        width: 210px;
+        position: absolute;
+        margin-top: -15%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-210px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 25% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -44% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -33% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 35px;
+        margin-left: 30%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0px 0px 0px 76%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (min-width: 936px) {
+    .container{
+        height: 100%;
+        width: 210px;
+        position: absolute;
+        margin-top: -14%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-210px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 25% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -40% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -29% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 32%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0px 0px 0px 76%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (min-width: 1050px) {
+    .container{
+        height: 100%;;
+        width: 250px;
+        position: absolute;
+        margin-top: -12%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-250px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 25% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -40% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -29% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 34%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 79%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1168px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: -10.2%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 24% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -36% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -25% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 35%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 79%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1257px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: -9.3%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 24% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -36% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -25% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 35%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 82%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1350px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: -9%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 24% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -34% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -23% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 35%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 82%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1411px) {
+    .container{
+        height: 100%;;
+        width: 270px;
+        position: absolute;
+        margin-top: -7.2%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 24% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -34% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -23% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 40%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 82%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+
+@media screen and (min-width: 1536px) {
+    .container{
+        height: 100%;;
+        width: 270px;
+        position: absolute;
+        margin-top: -7.5%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 24% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -34% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -23% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 40%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 82%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1615px) {
+    .container{
+        height: 100%;;
+        width: 270px;
+        position: absolute;
+        margin-top: -7%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    .searchbar{
+        float: right;
+        margin: 140px 23% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -32% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -21% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 40%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 82%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1771px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: -5.2%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 23% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -32% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -21% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 40%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 85%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1880px) {
+    .container{
+        height: 100%;
+        width: 290px;
+        position: absolute;
+        margin-top: -5.3%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-290px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 23% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -30% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -19.5% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 40%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 85%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (min-width: 1920px) {
+    .container{
+        height: 100%;
+        width: 290px;
+        position: absolute;
+        margin-top: -5.5%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-290px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .searchbar{
+        float: right;
+        margin: 140px 23% 0px 0px;  
+    }
+
+    .searchbar input{
+        width: 100%;
+    }
+
+    .convertbtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -30% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+    
+    .deletebtn{
+        float: right;
+        text-decoration: none;
+        margin: 135px -19.5% 0px 0px;
+        height: 25%;
+        width: 10%;
+        border-radius: 15px;
+        cursor: pointer;
+        background: transparent;
+        color: white;
+        border: 1px solid black;
+        outline: none;
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 36px;
+        margin-left: 40%;
+    }
+    
+    table{
+        font-size: 20px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse; 
+    }
+
+    
+    .scroll{
+        width: 90%;
+        height: 350px;
+        margin-left: 5%;
+        margin-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .sorting{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0px 0px 0px 85%;
+    }
+    
+    .sorting select{
+        border: 2px solid black;
+        font-size: 15px;
+    }
+    
+}

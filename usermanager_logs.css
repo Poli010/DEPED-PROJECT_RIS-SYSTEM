@@ -1,0 +1,793 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'bookman old style';
+}
+
+header{
+    height: 190px;
+    background-color: #162fa0;  
+    
+}
+
+header img{
+    margin-top: 10px;
+    width: 120px;
+}
+
+.headerTitles{
+    margin-top: -2.5%;
+    margin-left: .5%;
+}
+
+.headerTitles h1{
+    font-size: 130%;
+    color: white;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 118px;
+    
+}
+
+.headerTitles h2{
+    font-size: 120%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    
+}
+
+.headerTitles h3{
+    font-size: 95%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    
+}
+
+header h1{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    margin: -120px 0px 0px 140px;
+}
+/* HEADER END*/
+
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* MENU BAR*/
+
+.container{
+    height: 81.7%;
+    width: 270px;
+    position: absolute;
+    margin-top: 0px;
+    background: #162fa0;
+    z-index: 1;
+    transition: transform 0.5s;
+    transform: translateX(-270px);
+}
+
+.container .head{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    background: #7c9885;
+}
+ol{
+    width: 100%;
+    list-style: none;
+}
+
+ol li{
+    display: block;
+    width: 100%;
+}
+
+ol li a{
+    color: white;
+    padding: 20px 15px 0px 0px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+ol li a i{
+    margin-left: -10px;
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+}
+
+ol li:hover a{
+    background: #162fa0;
+    color: grey;
+    letter-spacing: 1.5px;
+}
+
+.menu_checkbox{
+    visibility: hidden;
+    display: none;
+}
+
+span{
+    position: absolute;
+    right: -40px;
+    top: 10px;
+    font-size: 30px;
+    border-radius: 3px;
+    color: #fff;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: #162fa0;
+}
+
+span #times{
+    position: absolute;
+    margin: 0px 0px 0px -23px;
+}
+
+.menu_checkbox:checked ~ .container{
+    transform: translateX(0);
+}
+.menu_checkbox:checked ~ .container #bars{
+    display: none;
+}
+
+/* MENU BAR END */
+
+/* TABLE */
+table{
+    font-size: 20px;
+    margin-left: 117px;
+    width: 91.5%;
+    border: 2px solid black;
+    border-collapse: collapse;  
+}
+
+
+.account-name{
+    width: 15%;
+}
+
+.align-account-name{
+    text-align: center;
+    
+}
+
+.stock-number{
+    width: 8%;
+}
+
+.align-stock-number{
+    text-align: center;
+   
+}
+
+.item-description{
+    width: 17%;
+}
+
+.align-item-description{
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+}
+
+.added-quantity{
+    width: 8%;
+}
+
+.align-add-quantity{
+    text-align: center;
+    
+}
+
+.date-added{
+    width: 10%;
+}
+
+.align-add-quantity{
+    text-align: center;
+}
+
+.date-added{
+    width: 10%;
+}
+
+.align-form-date{
+    text-align: center;
+    padding: 0px 0px 0px 10px;
+}
+
+
+table tr {
+    text-align: left;
+    border: 2px solid black;
+    height: 40px;
+}
+
+
+table tr th{
+    text-align: center;
+    background: #162fa0;
+    color: white;
+    font-style: italic;
+    border: 2px solid black;
+    top: 0px;
+    position: sticky;
+    
+    
+}
+table tr td{
+    margin-left: 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    line-height: 20px;
+}
+
+
+.scroll{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 91%;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+
+/* TABLE */
+
+/* RESPONSIVE */
+@media screen and (min-width: 768px) {
+    .container{
+        height: 100%;
+        width: 210px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-210px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    table{
+        font-size: 17px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse;  
+    }
+
+    table tr td{
+        margin-left: 10px;
+        font-size: 15px;
+        border: 2px solid black;
+        line-height: 20px;
+    }
+
+    .scroll{
+        margin-left: 4%;
+        margin-top: 10px;
+        width: 92%;
+        height: 350px;
+        overflow-y: scroll;
+    }
+
+    
+}
+
+@media screen and (min-width: 848px) {
+    .container{
+        height: 100%;
+        width: 210px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-210px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 936px) {
+    .container{
+        height: 100%;
+        width: 210px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-210px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 15px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1050px) {
+    .container{
+        height: 100%;;
+        width: 250px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-250px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 23px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1168px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1257px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1350px) {
+    .container{
+        height: 100%;;
+        width: 270px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 19px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    table{
+        font-size: 17px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse;  
+    }
+
+    table tr td{
+        margin-left: 10px;
+        font-size: 15px;
+        border: 2px solid black;
+        line-height: 20px;
+    }
+
+    .scroll{
+        margin-left: 4%;
+        margin-top: 10px;
+        width: 92%;
+        height: 350px;
+        overflow-y: scroll;
+    }
+    
+}
+
+@media screen and (min-width: 1411px) {
+    .container{
+        height: 100%;
+        width: 270px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 19px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 1615px) {
+    .container{
+        height: 100%;;
+        width: 270px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-270px);
+    }
+    .container .head{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    table{
+        font-size: 17px;
+        margin-left: 0px;
+        width: 100%;
+        border: 2px solid black;
+        border-collapse: collapse;  
+    }
+
+    table tr td{
+        margin-left: 10px;
+        font-size: 15px;
+        border: 2px solid black;
+        line-height: 20px;
+    }
+
+    .scroll{
+        margin-left: 4%;
+        margin-top: 10px;
+        width: 92%;
+        height: 350px;
+        overflow-y: scroll;
+    }
+    
+}
+
+@media screen and (min-width: 1771px) {
+    .container{
+        height: 100%;
+        width: 290px;
+        position: absolute;
+        margin-top: 0%;
+        background: #162fa0;
+        z-index: 1;
+        transition: transform 0.5s;
+        transform: translateX(-290px);
+    }
+
+    .container .head{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 3px;
+        background: #7c9885;
+    }
+
+    ol li a{
+        color: white;
+        padding: 20px 20px 0px 0px;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+        letter-spacing: 1px;
+        position: relative;
+        transition: 0.3s;
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+
+    ol li a i{
+        margin-left: -10px;
+        width: 70px;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
