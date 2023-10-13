@@ -207,15 +207,15 @@
 
             <div class="User_Office">
                 <label for="useroffice">Office:</label>
-                <input type="text" name="useroffice" id="userOffice">
+                <input type="text" name="useroffice" id="userOffice" required>
             </div>
             <div class="User_Position">
                 <label>Position:</label>
-                <input type="text" name="userposition" id="userPosition">
+                <input type="text" name="userposition" id="userPosition" required>
             </div>
             <div class="Center_Code">
                 <label>Center Code:</label>
-                <input type="text" name="centercode" id="centerCode">
+                <input type="text" name="centercode" id="centerCode" required>
             </div>
             <div class="buttons2">
                 <button type="submit" class="Save2">Save</button>

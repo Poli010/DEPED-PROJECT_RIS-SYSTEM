@@ -32,7 +32,7 @@
         <nav>
             <ul>
                 <li><a href="https://drive.google.com/file/d/1FWGsxirhae-hqoREOf2w79bnjvN4JlAu/view?usp=sharing">CNAS</a></li>
-                <li><a href="Accounts_inventory.php">BACK</a></li>
+                <li><a href="usermanagement.php">BACK</a></li>
             </ul>
             <br>
         </nav>

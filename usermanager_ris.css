@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bookman Old Style';
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header{
+    height: 90%;
+    background-color: #162fa0;  
+    position: sticky;
+    width: 100%;
+    z-index: 998;
+    margin-bottom: -5%;
+}
+
+
+header img{
+    margin-top: 5px;
+    width: 120px;
+    position: sticky;
+    z-index: 998;
+}
+
+
+h1{
+    font-size: 130%;
+    color: white;
+    position: absolute;
+    margin-top: -125px;
+    margin-left: 118px;
+    z-index: 998;
+}
+
+.headerTitles h2{
+    font-size: 120%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    z-index: 998;
+}
+
+h3{
+    font-size: 95%;
+    color: white;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 120px;
+    font-weight: 100;
+    z-index: 998;
+}
+
+.headerTitles {
+    margin-top: 6%;
+    z-index: 998;
+}
+
+#forRIS1 {
+    margin: auto;
+    max-width: 50%;
+    border: solid;
+    z-index: 999;
+    padding-top: -5%;
+}
+
+.risFORM{
+    overflow-x: hidden;
+    margin-bottom: 1.5%;
+}
+
+.stock_number {
+
+    width: 80px;
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+.purposeInput {
+    width: 1000px;
+    height: 25px;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+.purposeTitle {
+    text-align: left;
+    margin-left: 5px;
+}
+
+.stock_unit {
+    width: 40px;
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+}
+
+.quantityInput {
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-weight: bold;
+    width: 10px;
+}
+
+.quantityInputUser {
+    width: 100px;
+    text-align: center;
+}
+
+.quantityTitle {
+    width: 10px;
+}
+
+.yesInputCheck {
+    width: 10px;
+}
+
+.noInputCheck {
+    width: 15px;
+}
+
+nav ul{
+    float: right;
+}
+
+.entityDeped {
+    margin-bottom: -2%;
+    margin-right: 80%;
+}
+
+.fundCluster {
+    margin-left: 77%;
+}
+
+.cityDivision {
+    margin-right: 89.7%;
+}
+
+.locationDivision {
+    margin-top: -20px;
+    margin-left: -525px;
+}
+
+.userOffice {
+    margin-bottom: -2%;
+    margin-left: -91.7%;
+}
+
+.userOfficePHP {
+    margin-top: -20px;
+    margin-left: 440px;
+}
+
+.centerCode {
+    margin-top: -18px;
+    margin-right: -61.7%;
+}
+
+.centerCodePHP {
+    margin-top: -20px;
+    margin-left: 900px;
+}
+
+.risNo {
+margin-left: 68%;
+}
+
+
+#signature {
+    text-align: left;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.firstcolumn_Approval {
+    text-align: left;
+    font-size: 11px;
+    width: 10px;
+}
+
+.requestedBy {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 35px;
+}
+
+.approvalDiv {
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.approvedByName {
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+}
+
+.issuedByName {
+    text-align: center;
+    font-size: 12px;
+    width: 150px;
+}
+
+#designationID {
+    text-align: left;
+    font-size: 12px;
+}
+
+#approverPosition {
+    text-align: center;
+    font-size: 10px;
+}
+
+#issuerPosition {
+    text-align: center;
+    font-size: 10px;
+}
+
+#dateToday {
+    text-align: left;
+    font-size: 12px;
+}
+
+.formDate {
+    text-align: center;
+    font-size: 12px;
+}
+
+.item_description {
+    font-family: "Bookman Old Style";
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
+}
+
+.itemDescription_title {
+    font-family: "Bookman Old Style";
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 225px;
+}
+
+.accountName{
+    text-align: center;
+    font-size: 12px;
+}
+
+.accountNameInput {
+    width: 700px;
+}
+
+.issuedRemarks {
+    width: 700px;
+}
+
+.userPosition {
+    text-align: center;
+    font-size: 12px;
+}
+
+#submitButton {
+    margin: auto;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    margin-top: .8%;
+    width: 100px;
+    height: 50px;
+    border-radius: 13px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #162fa0; /* Set the initial background color to #162fa0 */
+    color: #fff; /* Set the initial font color to white */
+    border: 2px solid #162fa0; /* Add a border */
+    transition: background-color .3s; /* Add a smooth transition for background-color */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+#submitButton:hover {
+    background-color: grey; /* Darken the background color on hover */
+}
+
+/* NAV DROPDOWN LIST*/
+nav{
+    float: right;
+    margin-right: 0px;
+    padding-top: 4.75%;
+    
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 80%;
+    outline: 2px solid darkblue;
+    box-shadow: 2px darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: -5px;
+}
+
+ul li a:hover{
+    background: grey;
+}
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+/* NAV DROPDOWN LIST*/
+
+.successPopup{
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.openSuccessPopup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.successPopup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.successPopup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.successPopup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
