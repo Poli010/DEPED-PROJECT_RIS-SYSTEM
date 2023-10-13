@@ -1,0 +1,12 @@
+DepEd CSJDM E-RIS Form System
+-END USER-
+E: eu.erisformsystem@gmail.com
+P: forenduser
+
+-USER MANAGER-
+E: um.erisformsystem@gmail.com
+P: forusermanager
+
+-SUPER ADMIN-
+E: sa.erisformsystem@gmail.com
+P: forsuperadmin
