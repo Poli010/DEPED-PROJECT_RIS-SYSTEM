@@ -11,15 +11,25 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 ::selection{
   background: rgba(50, 26, 188, 0.3);
 }
-.login_form{
-  max-width: 440px;
-  padding: 0 20px;
-  margin: 170px auto;
+.login-container {
+  text-align: center;
 }
+
+.login_form{
+  width: 440px;
+  padding: 0 20px;
+}
+
 .wrapper{
   width: 100%;
   background: #fff;
@@ -110,112 +120,11 @@ form .button input:hover{
   background: #5661c4;
 }
 
-footer{
-  opacity: 30%;
-}
-
-/* RESPONSIVE */
-@media screen and (min-width: 768px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -13%;
-  }
-  
-}
-
-@media screen and (min-width: 848px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -13%;
-  }
-  
-}
-
-@media screen and (min-width: 936px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -13%;
-  }
-  
-}
-
-@media screen and (min-width: 1050px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -13%;
-  }
-}
-
-@media screen and (min-width: 1168px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -10%;
-  }
-  
-}
-
-@media screen and (min-width: 1257px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -10%;
-  }
-  
-}
-
-@media screen and (min-width: 1350px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -10%;
-  }
-  
-}
-
-@media screen and (min-width: 1411px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -10%;
-  }
-  
-  
+h3{
+  text-align: center;
+  margin-top: -7%;
+  font-size: 14px;
+  opacity: 50%;
 }
 
 
-@media screen and (min-width: 1536px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -10%;
-  }
-  
-  
-}
-
-@media screen and (min-width: 1615px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -5%;
-  }
-  
-}
-
-@media screen and (min-width: 1771px) {
-  footer{
-    margin-left: 0%;
-    margin-top: -5%;
-  }
-  
-}
-
-@media screen and (min-width: 1880px) {
-  footer{
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-  
-}
-
-@media screen and (min-width: 1920px) {
-  footer{
-    margin-left: 0%;
-    margin-top: 0%;
-  }
-}

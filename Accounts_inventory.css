@@ -68,7 +68,7 @@ h2{
 /* MENU BAR*/
 
 .container{
-    height: 100%;;
+    height: 82.4%;;
     width: 270px;
     position: absolute;
     margin-top: -120px;
@@ -790,7 +790,7 @@ table tr td{
 /* RESPONSIVE */
 @media screen and (min-width: 768px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 210px;
         position: absolute;
         margin-top: -16%;
@@ -1277,7 +1277,7 @@ table tr td{
 
 @media screen and (min-width: 848px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 210px;
         position: absolute;
         margin-top: -15%;
@@ -1759,7 +1759,7 @@ table tr td{
 
 @media screen and (min-width: 936px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 210px;
         position: absolute;
         margin-top: -13%;
@@ -2242,7 +2242,7 @@ table tr td{
 
 @media screen and (min-width: 1024px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -11.2%;
@@ -2730,7 +2730,7 @@ table tr td{
 
 @media screen and (min-width: 1050px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 250px;
         position: absolute;
         margin-top: -11%;
@@ -3214,7 +3214,7 @@ table tr td{
 
 @media screen and (min-width: 1168px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -9.5%;
@@ -3697,7 +3697,7 @@ table tr td{
 
 @media screen and (min-width: 1257px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -9.1%;
@@ -4176,7 +4176,7 @@ table tr td{
 
 @media screen and (min-width: 1350px) {
     .container{
-        height: 100%;;
+        height: 82.4%;;
         width: 270px;
         position: absolute;
         margin-top: -8.5%;
@@ -4657,7 +4657,7 @@ table tr td{
 
 @media screen and (min-width: 1411px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -7%;
@@ -5138,7 +5138,7 @@ table tr td{
 
 @media screen and (min-width: 1500px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -7%;
@@ -5619,7 +5619,7 @@ table tr td{
 
 @media screen and (min-width: 1536px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -7.5%;
@@ -6099,7 +6099,7 @@ table tr td{
 
 @media screen and (min-width: 1600px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -7%;
@@ -6580,7 +6580,7 @@ table tr td{
 
 @media screen and (min-width: 1771px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 270px;
         position: absolute;
         margin-top: -5.7%;
@@ -7061,7 +7061,7 @@ table tr td{
 
 @media screen and (min-width: 1880px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 290px;
         position: absolute;
         margin-top: -5.1%;
@@ -7542,7 +7542,7 @@ table tr td{
 
 @media screen and (min-width: 1920px) {
     .container{
-        height: 100%;
+        height: 82.4%;
         width: 290px;
         position: absolute;
         margin-top: -5.5%;

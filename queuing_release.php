@@ -47,7 +47,7 @@ require_once("queuing_release_autofillup.php");
     <br>
     <br>
     <div id="formContainer">
-        <form class="risFORM "action="insert_data.php" method="POST">
+        <form class="risFORM" action="insert_data.php" method="POST">
             <table id="forRIS1" border="1">
             <tr reference-data-code = "referenceCode">
                 <input type="hidden" name="referenceCode" value="<?php echo isset($referenceCode) ? $referenceCode : ''; ?>">
@@ -279,6 +279,9 @@ require_once("queuing_release_autofillup.php");
             </table>
             <button type="submit" class="btnRelease" name="btnRelease" id="btnRelease">RELEASE</button>
         </form>
+       <br>
+       <br>
+       <br>
        <br>
        <br>
        <br>

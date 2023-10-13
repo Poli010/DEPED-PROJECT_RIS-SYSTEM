@@ -7,7 +7,7 @@ $(document).ready(function() {
             const localDate = new Date();
 
             if (areDatesDifferent(onlineDate, localDate)) {
-                displayDateMismatchError();
+                //displayDateMismatchError();
             } else {
                 document.querySelector('.formDate').value = getFormattedDate(onlineDate);
             }

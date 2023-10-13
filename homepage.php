@@ -17,30 +17,32 @@
   </head>
   
   <body>
-    <div class="login_form">
-      <div class="wrapper">
-        <div class="title"><span>E-Requisition and Issue Slip <br> <div class="title_two">Login</div></span></div>
-        <form name="form" action="login.php" method="POST">
-          <div class="row">
-            <i class="fas fa-user"></i>
-            <input type="text" placeholder="abc@deped.gov.ph" name="loginEmail" autocomplete="off" required>
-          </div>
-          <div class="row">
-            <i class="fas fa-lock"></i>
-            <input type="password" placeholder="Password" name="loginPass" autocomplete="off" required>
-          </div>
-          <div class="row">
-            <a class="forgot-password" href="ForgotPassword.php">Forgot Password?</a>
-          </div>
-          <div class="row button">
-            <input type="submit" value="Login" name="login">
-          </div>
-        </form>
+    <div class="login-container">
+      <div class="login_form">
+        <div class="wrapper">
+          <div class="title"><span>E-Requisition and Issue Slip <br> <div class="title_two">Login</div></span></div>
+          <form name="form" action="login.php" method="POST">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="abc@deped.gov.ph" name="loginEmail" autocomplete="off" required>
+            </div>
+            <div class="row">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" name="loginPass" autocomplete="off" required>
+            </div>
+            <div class="row">
+              <a class="forgot-password" href="ForgotPassword.php">Forgot Password?</a>
+            </div>
+            <div class="row button">
+              <input type="submit" value="Login" name="login">
+            </div>
+          </form>
+        </div>
+        <h3>Developer: <a href="https://www.facebook.com/ivan.policarpio.01"> Ivan Policarpio</a> and <a href="https://www.facebook.com/oerchaos">Austin Condalor</a></h3>
       </div>
     </div>
 
     <footer>
-      <h3>Developer: <a href="https://www.facebook.com/ivan.policarpio.01"> Ivan Policarpio</a> and <a href="https://www.facebook.com/oerchaos">Austin Condalor</a></h3>
       <!--DISABLED BACK BUTTON-->
       <script src="disableBackButton.js"></script>
     </footer>

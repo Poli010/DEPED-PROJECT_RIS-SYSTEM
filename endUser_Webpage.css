@@ -294,7 +294,7 @@ margin-left: 68%;
 nav{
     float: right;
     margin-right: 0px;
-    padding-top: 3%;
+    padding-top: 4.75%;
     
 }
 
@@ -314,11 +314,12 @@ ul li a{
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 100%;
+    font-size: 80%;
     outline: 2px solid darkblue;
     box-shadow: 2px darkblue;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: -5px;
 }
 
 ul li a:hover{
