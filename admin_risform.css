@@ -378,3 +378,522 @@ ul li:hover ul.dropdown{
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(0,0,0,0.2);
 }
+
+@media screen and (min-width: 412px) {
+    .headerTitles {
+        font-size: 80%;
+    }
+
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 1%;
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: .25px 11px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        background-color: darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* NAV DROPDOWN LIST*/
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 12.5%;
+        
+    }
+
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li a{
+        display: block;
+        padding: 8px 18px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 70%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        background-color: transparent;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 848px) {
+    /* NAV DROPDOWN LIST*/
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 11.5%;
+        
+    }
+
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li a{
+        display: block;
+        padding: 8px 18px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 65%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 936px) {
+    /* NAV DROPDOWN LIST*/
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 10.5%;
+        
+    }
+
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li a{
+        display: block;
+        padding: 8px 18px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 65%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    /* NAV DROPDOWN LIST*/
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 9.5%;
+        
+    }
+
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li a{
+        display: block;
+        padding: 8px 18px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 65%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1152px) {
+    /* NAV DROPDOWN LIST*/
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 7.5%;
+    }
+
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li a{
+        display: block;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1280px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 6.5%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 13px 23px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1360px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 5.75%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1440px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 5.5%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1536px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 5%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1600px) {}
+@media screen and (min-width: 1771px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 4.4%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1880px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 4%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}
+@media screen and (min-width: 1920px) {
+    nav{
+        float: right;
+        margin-right: 0px;
+        padding-top: 4.75%;
+        
+    }
+    
+    ul{
+        list-style: none;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    
+    ul li a{
+        display: block;
+        padding: 15px 25px;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 80%;
+        outline: 2px solid darkblue;
+        box-shadow: 2px darkblue;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: -5px;
+    }
+    
+    ul li a:hover{
+        background: grey;
+    }
+    ul li:hover ul.dropdown{
+        display:block;
+    }
+}

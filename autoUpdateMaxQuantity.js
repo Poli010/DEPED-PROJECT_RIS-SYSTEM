@@ -97,7 +97,7 @@ function periodicallyUpdateItemQuantities() {
         selectElements.forEach(function (selectElement) {
             updateMaxQuantity(selectElement);
         });
-    }, 2000); // Adjust the interval as needed (in milliseconds)
+    }, 1000); // Adjust the interval as needed (in milliseconds)
 }
 
 // Call the function to start periodic updates

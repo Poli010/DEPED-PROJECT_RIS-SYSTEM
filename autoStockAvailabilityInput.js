@@ -53,7 +53,7 @@ $(document).ready(function () {
             // Set a new interval to periodically update the elements
             intervalId = setInterval(function () {
                 periodicallyUpdateStockAvailability(selectedRow, itemDescription);
-            }, 3000);
+            }, 2500);
 
             // Store the new interval ID for this row
             intervalIds[selectedRow.index()] = intervalId;
